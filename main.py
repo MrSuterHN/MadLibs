@@ -1,3 +1,6 @@
+#Here is the example code for a MadLibs story
+
+#List your variables first
 adjective = input("Enter a adjective: ")
 adjective2 = input("Enter a adjective: ")
 noun = input("Enter a noun: ")
@@ -18,6 +21,8 @@ adjective3 = input("Enter a adjective: ")
 number = input("Enter a number: ")
 plural_noun4 = input("Enter a plural noun: ") 
 
+#This is the story variable
+#Note how the noun, adjective, and other variables are included in the string
 story = ("A vacation is when you take a trip to some " + adjective + " place with your " +
 adjective2 + " family. Usually you go to some place that is near a/an " + noun + " or up on a/an "+
 noun2 + ". A good vacation place is one where you can ride " + plural_noun + " or play " + game
@@ -31,5 +36,8 @@ noun2 + ". A good vacation place is one where you can ride " + plural_noun + " o
 adjective3 + " and because they have to work " + number
 + " hours every day all year making enough " + plural_noun4 + " to pay for the vacation.")
 
+#Here is the ready variable
 ready = input("Are you ready to see your story? ")
+
+#Here is where the print function is called.
 print(story)
